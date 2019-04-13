@@ -3,7 +3,7 @@ class InputNumberChecker {
         if (!this.isNumber(obj.value)) {
             alert("整数を入力して下さい。");
         }
-        else if (!this.rangeOf2And100(obj.value)) {
+        else if (!this.isRangeOf2And100(obj.value)) {
             alert("2~100の範囲で入力してください。");
         }
         else if (!this.isPrime(obj.value)) {
@@ -20,7 +20,7 @@ class InputNumberChecker {
         return regex.test(val);
     }
 
-    rangeOf2And100(val) {
+    isRangeOf2And100(val) {
         return (val >= 2 && val <= 100);
     }
 
@@ -32,9 +32,9 @@ class InputNumberChecker {
             return false;
         }
 
-        var val_sqrt = Math.sqrt(val);
+        var valSqrt = Math.sqrt(val);
 
-        for (var i = 3; i <= val_sqrt; i += 2) {
+        for (var i = 3; i <= valSqrt; i += 2) {
             if (val % i == 0) {
                 return false;
             }
@@ -45,8 +45,8 @@ class InputNumberChecker {
 }
 
 
-var onButtonClick = function(number) {
+var onButtonClick = function(num) {
     var inputNumberChecker = new InputNumberChecker();
-    inputNumberChecker.check(number);
+    inputNumberChecker.check(num);
 }
 
