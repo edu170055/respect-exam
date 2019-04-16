@@ -312,6 +312,54 @@ h3 {
     text-decoration: none;
 }
 
+.consul .flexbox h4 {
+    color: #002288;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.consul .content_border1 {
+    border-bottom: 1px solid #ddd;
+}
+
+.consul .content_border2 {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.consul .content_border3 {
+    border-bottom: 1px solid #ddd;
+}
+
+.consul .content_border4 {
+}
+
+.consul .content_border5 {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.consul .content_border6 {
+}
+
+.consul .flexbox div {
+    width: 33%;
+    padding: 20px;
+}
+
+.consal_link {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 280px;
+    padding-bottom: 50px;
+}
+
+.consal_link a {
+    color: #002288;
+    text-decoration: none;
+}
+
 .bottom_line_red {
     border-bottom: solid 1px #ff0033;
 }
