@@ -6,7 +6,7 @@ nav {
     box-shadow: 0px 4px 2px -2px #ebebeb;
 }
 
-.nav_bar {
+nav .nav_bar {
     list-style: none;
     overflow: hidden;
     padding-top: 10px;
@@ -15,7 +15,7 @@ nav {
     padding-right: 30px;
 }
 
-.site-logo {
+nav .site-logo {
     float: left;
     position: relative;
     top: 0;
@@ -26,11 +26,11 @@ nav {
     height: 50%;
 }
 
-.items {
+nav .items {
     float: right;
 }
 
-.items li {
+nav .items li {
     height:42px;
     width: 135px;
     float: left;
@@ -40,12 +40,12 @@ nav {
     border-left: 1px solid #ddd;
 }
 
-.last_item {
+nav .last_item {
     float: left;
     border-right: 1px solid #ddd;
 }
 
-.nav_bar li a {
+nav .nav_bar li a {
     display: block;
     text-align: center;
     text-decoration: none;
@@ -56,7 +56,7 @@ nav {
     border-bottom: solid 4px transparent;
 }
 
-.nav_bar li a:hover {
+nav .nav_bar li a:hover {
     color: #2e54b3;
     border-bottom: solid 4px #093fac;
 }
@@ -83,6 +83,7 @@ nav {
 .overview {
     text-align: center;
 }
+
 .overview p {
     padding: 15px;
     font-size: 102%;
@@ -114,11 +115,11 @@ h2 {
     font-size: 200%;
 }
 
-.provide_value .deco1 {
+.deco1 {
     padding-top: 50px;
 }
 
-.provide_value .deco2 {
+.deco2 {
     padding-bottom: 40px;
 }
 
@@ -126,7 +127,7 @@ h2 {
     padding: 40px 0;
 }
 
-.provide_value .table {
+.provide_value .flexbox {
     display: flex;
     margin: auto;
     width: 70%;
@@ -150,6 +151,86 @@ h2 {
 }
 
 .service_info {
+    text-align: center;
+}
+
+.image5 {
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-size: 150%;
+    text-align: left;
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+.icon_img {
+    padding-right: 10px;
+}
+
+.bottom_line {
+    border-bottom: solid 1px #48d1cc;
+}
+
+.subtitles2 {
+    color: #48d1cc;
+    font-size: 140%;
+    text-align: left;
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+.sentence {
+    font-size: 104%;
+    text-align: left;
+    max-width: 900px;
+    padding-left: 280px;
+    padding-bottom: 30px;
+}
+
+.jinji_img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 280px;
+    padding-bottom: 30px;
+}
+
+.service_info .flexbox {
+    display: flex;
+    margin: auto;
+    width: 970px;
+    height: 350px;
+    justify-content: space-between;
+    border: solid 1px #48d1cc;
+}
+
+.flexbox h4 {
+    color: #48d1cc;
+}
+
+.flexbox p {
+    font-size: 90%;
+    text-align: left;
+}
+
+.flexbox div {
+    flex-basis: 240px;
+    padding: 30px;
+}
+
+.flexbox .content_border {
+    border-left: 1px solid #ddd;
+}
+
+.jinji_link {
+    text-align: left;
+    padding-left: 280px;
+}
+
+.jinji_link a {
+    color: #48d1cc;
+    text-decoration: none;
 }
 
 .page_link {
