@@ -184,7 +184,7 @@ h3 {
 .sentence {
     font-size: 104%;
     text-align: left;
-    max-width: 900px;
+    width: 900px;
     padding-left: 280px;
     padding-bottom: 30px;
 }
@@ -196,7 +196,7 @@ h3 {
     padding-bottom: 30px;
 }
 
-.service_info .flexbox {
+.at_jinji .flexbox {
     display: flex;
     margin: auto;
     width: 970px;
@@ -205,7 +205,7 @@ h3 {
     border: solid 1px #48d1cc;
 }
 
-.flexbox h4 {
+.at_jinji .flexbox h4 {
     color: #48d1cc;
 }
 
@@ -214,12 +214,12 @@ h3 {
     text-align: left;
 }
 
-.flexbox div {
+.at_jinji .flexbox div {
     flex-basis: 240px;
     padding: 30px;
 }
 
-.flexbox .content_border {
+.at_jinji .content_border {
     border-left: 1px solid #ddd;
 }
 
@@ -233,6 +233,85 @@ h3 {
     text-decoration: none;
 }
 
+.bottom_line_blue {
+    border-bottom: solid 1px #002288;
+}
+
+.subtitles3 {
+    color: #002288;
+    font-size: 140%;
+    text-align: left;
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+.sentence2 {
+    font-size: 104%;
+    text-align: left;
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-bottom: 30px;
+}
+
+.consul .flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 960px;
+    height: 520px;
+    border: solid 1px #002288;
+}
+
+.consul .flexbox h4 {
+    color: #002288;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.consul .content_border1 {
+    border-bottom: 1px solid #ddd;
+}
+
+.consul .content_border2 {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.consul .content_border3 {
+    border-bottom: 1px solid #ddd;
+}
+
+.consul .content_border4 {
+}
+
+.consul .content_border5 {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.consul .content_border6 {
+}
+
+.consul .flexbox div {
+    width: 33%;
+    padding: 20px;
+}
+
+.consal_link {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 280px;
+    padding-bottom: 50px;
+}
+
+.consal_link a {
+    color: #002288;
+    text-decoration: none;
+}
+
 .page_link {
 }
 
@@ -242,7 +321,7 @@ h3 {
 .at_jinji {
 }
 
-.saiyo {
+.consul {
 }
 
 .agency {
