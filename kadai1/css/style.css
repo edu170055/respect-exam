@@ -61,41 +61,49 @@ nav {
     border-bottom: solid 4px #093fac;
 }
 
-/*
-nav {
-    text-align: right;
+.text {
+    font-size: 75%;
+    padding-left: 30px;
 }
 
-.site-logo {
-    position: absolute;
-    left: 20px;
+.about_me_img {
+    height: 320px;
+    background-image: url("../img/main_bg.jpg");
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.nav_bar li {
+.bg {
+    background-image: url("../img/bg01.png");
+    background-position: center;
+}
+
+.overview {
     text-align: center;
-    display: inline-block;
-    margin-right: 25px;
+}
+.overview p {
+    padding: 15px;
+    font-size: 102%;
 }
 
-.nav_bar {
-    list-style: none;
+.overview .logo {
+    padding-top: 60px;
+    padding-bottom: 15px;
 }
 
-.nav_bar li a {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    border-bottom: solid 4px transparent;
+.overview .title {
+    padding: 40px 0;
 }
 
-.nav_bar li a:hover {
-    color: blue;
-    border-bottom: solid 4px blue;
+.overview .blue {
+    color: #002288;
+    font-size: 130%;
 }
-*/
 
-.about_me {
+.overview .red {
+    color: #ff0033;
 }
 
 .provide_value {
